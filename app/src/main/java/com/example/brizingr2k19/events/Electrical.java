@@ -27,9 +27,12 @@ public class Electrical extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mech);
+
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
         getSupportActionBar().setTitle("Electrical");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         expandableListView = findViewById(R.id.expandableListViewMech);
         expandableListDetail = ExpantableElectrical.getData();
@@ -61,5 +64,10 @@ public class Electrical extends AppCompatActivity {
         });
 
 
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }

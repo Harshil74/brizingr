@@ -27,9 +27,12 @@ public class FunZone extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mech);
+
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
         getSupportActionBar().setTitle("Fun Zone");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         expandableListView = findViewById(R.id.expandableListViewMech);
         expandableListDetail = ExpantableFunZone.getData();
@@ -60,5 +63,10 @@ public class FunZone extends AppCompatActivity {
             }
         });
 
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }

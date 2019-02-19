@@ -30,6 +30,8 @@ public class Event extends AppCompatActivity {
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
         getSupportActionBar().setTitle("Events");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         c1 = findViewById(R.id.card_computer);
         c2 = findViewById(R.id.card_mech);
@@ -95,5 +97,10 @@ public class Event extends AppCompatActivity {
                 startActivity(new Intent(Event.this, FunZone.class));
             }
         });
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }

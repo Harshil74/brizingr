@@ -33,6 +33,8 @@ public class Comp extends AppCompatActivity {
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
         getSupportActionBar().setTitle("Computer");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
 
         expandableListView = findViewById(R.id.expandableListViewComp);
@@ -64,5 +66,10 @@ public class Comp extends AppCompatActivity {
             }
         });
 
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }

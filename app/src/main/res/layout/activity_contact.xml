@@ -16,246 +16,254 @@
         android:id="@+id/orig"
         android:layout_below="@id/toolbar"
         android:layout_marginTop="8dp"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:layout_centerHorizontal="true"
         android:text="@string/organizing_panel"
         android:textColor="@android:color/black"/>
 
-    // ic
-    <android.support.v7.widget.CardView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_below="@id/orig"
-        android:layout_margin="8dp"
-        android:id="@+id/card_ic"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orig">
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:text="@string/sihora_parin"
-                android:textSize="15sp"
-                android:textColor="@android:color/black"
-                android:id="@+id/ic_text" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_below="@id/ic_text"
-                android:id="@+id/ic_dept"
-                android:textSize="15sp"
-                android:text="@string/ic_department"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/ic_mobile"
-                android:layout_centerHorizontal="true"
-                android:text="@string/mo_9687964013"
-                android:textSize="15sp"
-                android:layout_below="@id/ic_dept"/>
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:id="@+id/card_ic"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/sihora_parin"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:id="@+id/ic_text" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/ic_text"
+                        android:id="@+id/ic_dept"
+                        android:textSize="20sp"
+                        android:text="@string/ic_department"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ic_mobile"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/mo_9687964013"
+                        android:textSize="20sp"
+                        android:layout_below="@id/ic_dept"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+            //ec
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_below="@id/card_ic"
+                android:layout_margin="8dp"
+                android:id="@+id/card_Ec"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/zinzuvadiya_vivek"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:id="@+id/ec_text" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/ec_text"
+                        android:id="@+id/ec_dept"
+                        android:textSize="20sp"
+                        android:text="@string/ec_department"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ec_mobile"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/mo_8264697048"
+                        android:textSize="20sp"
+                        android:layout_below="@id/ec_dept"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+            //ce
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_below="@id/card_Ec"
+                android:layout_margin="8dp"
+                android:id="@+id/card_CE"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/raichura_mithilesh"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:id="@+id/ce_text" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/ce_text"
+                        android:id="@+id/ce_dept"
+                        android:textSize="20sp"
+                        android:text="@string/ce_dept"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ce_mobile"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/mo_9913291221"
+                        android:textSize="20sp"
+                        android:layout_below="@id/ce_dept"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+            //
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_below="@id/card_CE"
+                android:layout_margin="8dp"
+                android:id="@+id/card_mech"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/kapadiya_dhaval"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:id="@+id/mech_text" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/mech_text"
+                        android:id="@+id/mech_dept"
+                        android:textSize="20sp"
+                        android:text="@string/mechanical_department"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mech_mobile"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/mo_9426623326"
+                        android:textSize="20sp"
+                        android:layout_below="@id/mech_dept"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+            //civil
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_below="@id/card_mech"
+                android:layout_margin="8dp"
+                android:id="@+id/card_civil"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/dodiya_rishit"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:id="@+id/civil_text" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/civil_text"
+                        android:id="@+id/civil_dept"
+                        android:textSize="20sp"
+                        android:text="@string/civil_department"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/civil_mobile"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/mo_9408886651"
+                        android:textSize="20sp"
+                        android:layout_below="@id/civil_dept"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+            //auto
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_below="@id/card_civil"
+                android:layout_margin="8dp"
+                android:id="@+id/card_auto"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/sagar_bhargav"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:id="@+id/auto_text" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/auto_text"
+                        android:id="@+id/auto_dept"
+                        android:textSize="20sp"
+                        android:text="@string/automobile_department"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/auto_mobile"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/mo_9712224275"
+                        android:textSize="20sp"
+                        android:layout_below="@id/auto_dept"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
         </RelativeLayout>
-    </android.support.v7.widget.CardView>
-
-
-    //ec
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_below="@id/card_ic"
-        android:layout_margin="8dp"
-        android:id="@+id/card_Ec"
-        android:layout_height="wrap_content">
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:text="@string/zinzuvadiya_vivek"
-                android:textSize="15sp"
-                android:textColor="@android:color/black"
-                android:id="@+id/ec_text" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_below="@id/ec_text"
-                android:id="@+id/ec_dept"
-                android:textSize="15sp"
-                android:text="@string/ec_department"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/ec_mobile"
-                android:layout_centerHorizontal="true"
-                android:text="@string/mo_8264697048"
-                android:textSize="15sp"
-                android:layout_below="@id/ec_dept"/>
-        </RelativeLayout>
-    </android.support.v7.widget.CardView>
-
-
-    //ce
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_below="@id/card_Ec"
-        android:layout_margin="8dp"
-        android:id="@+id/card_CE"
-        android:layout_height="wrap_content">
-      <RelativeLayout
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:padding="8dp">
-          <TextView
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:layout_centerHorizontal="true"
-              android:text="@string/raichura_mithilesh"
-              android:textSize="15sp"
-              android:textColor="@android:color/black"
-              android:id="@+id/ce_text" />
-          <TextView
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:layout_centerHorizontal="true"
-              android:layout_below="@id/ce_text"
-              android:id="@+id/ce_dept"
-              android:textSize="15sp"
-              android:text="@string/ce_dept"/>
-          <TextView
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:id="@+id/ce_mobile"
-              android:layout_centerHorizontal="true"
-              android:text="@string/mo_9913291221"
-              android:textSize="15sp"
-              android:layout_below="@id/ce_dept"/>
-      </RelativeLayout>
-    </android.support.v7.widget.CardView>
-
-
-    //
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_below="@id/card_CE"
-        android:layout_margin="8dp"
-        android:id="@+id/card_mech"
-        android:layout_height="wrap_content">
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:text="@string/kapadiya_dhaval"
-                android:textSize="15sp"
-                android:textColor="@android:color/black"
-                android:id="@+id/mech_text" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_below="@id/mech_text"
-                android:id="@+id/mech_dept"
-                android:textSize="15sp"
-                android:text="@string/mechanical_department"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/mech_mobile"
-                android:layout_centerHorizontal="true"
-                android:text="@string/mo_9426623326"
-                android:textSize="15sp"
-                android:layout_below="@id/mech_dept"/>
-        </RelativeLayout>
-    </android.support.v7.widget.CardView>
-
-
-    //civil
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_below="@id/card_mech"
-        android:layout_margin="8dp"
-        android:id="@+id/card_civil"
-        android:layout_height="wrap_content">
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:text="@string/dodiya_rishit"
-                android:textSize="15sp"
-                android:textColor="@android:color/black"
-                android:id="@+id/civil_text" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_below="@id/civil_text"
-                android:id="@+id/civil_dept"
-                android:textSize="15sp"
-                android:text="@string/civil_department"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/civil_mobile"
-                android:layout_centerHorizontal="true"
-                android:text="@string/mo_9408886651"
-                android:textSize="15sp"
-                android:layout_below="@id/civil_dept"/>
-        </RelativeLayout>
-    </android.support.v7.widget.CardView>
-
-
-    //auto
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_below="@id/card_civil"
-        android:layout_margin="8dp"
-        android:id="@+id/card_auto"
-        android:layout_height="wrap_content">
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:text="@string/sagar_bhargav"
-                android:textSize="15sp"
-                android:textColor="@android:color/black"
-                android:id="@+id/auto_text" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_below="@id/auto_text"
-                android:id="@+id/auto_dept"
-                android:textSize="15sp"
-                android:text="@string/automobile_department"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/auto_mobile"
-                android:layout_centerHorizontal="true"
-                android:text="@string/mo_9712224275"
-                android:textSize="15sp"
-                android:layout_below="@id/auto_dept"/>
-        </RelativeLayout>
-    </android.support.v7.widget.CardView>
-
+    </ScrollView>
 
 
 </RelativeLayout>

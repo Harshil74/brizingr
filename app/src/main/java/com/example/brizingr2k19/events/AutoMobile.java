@@ -32,6 +32,8 @@ public class AutoMobile extends AppCompatActivity {
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
         getSupportActionBar().setTitle("Auto Mobile");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         expandableListView = findViewById(R.id.expandableListViewMech);
         expandableListDetail = ExpantableAuto.getData();
@@ -62,5 +64,10 @@ public class AutoMobile extends AppCompatActivity {
             }
         });
 
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }

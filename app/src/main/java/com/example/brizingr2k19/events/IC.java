@@ -32,6 +32,8 @@ public class IC extends AppCompatActivity {
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
         getSupportActionBar().setTitle("IC");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         expandableListView = findViewById(R.id.expandableListViewMech);
         expandableListDetail = ExpantableIC.getData();
@@ -62,5 +64,10 @@ public class IC extends AppCompatActivity {
             }
         });
 
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }

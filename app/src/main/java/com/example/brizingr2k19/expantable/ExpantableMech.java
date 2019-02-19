@@ -76,19 +76,6 @@ public class ExpantableMech {
                 "Decision taken by EVENT HEAD or COORDINATORS will be the final decision.\n" +
                 "In ROUND 2, there may be the possibility of tie, so in that case those team have to play one more round to finalize the result and qualify for the next round.");
 
-        List<String> balloon = new ArrayList<String>();
-        balloon.add("Event Description\n" +
-                "It is a event consisting of three round.\n" +
-                "\n" +
-                "ROUND 1:\n" +
-                "In this event, participant have to fight with their opponent in special costume which is provided at the event place by event co-ordinator.\n" +
-                "Two participant have to fight in this costume to fall each other to the ground 10 times in minimum time\n" +
-                "\n" +
-                "ROUND 2:\n" +
-                "Top 4 participant are selected for round 2 .\n" +
-                "\n" +
-                "Round 3:\n" +
-                "Top 2 participant are selected for round 3");
 
         List<String> briztrivia = new ArrayList<String>();
         briztrivia.add("Event Description\n" +
@@ -138,12 +125,25 @@ public class ExpantableMech {
                 "Obstacles are available to distract your concentration.\n" +
                 "Team who will transfer more water  in less time will be declared as winner.");
 
+        List<String> sync = new ArrayList<String>();
+        sync.add("This event consist of three round.\n" +
+                "\n" +
+                "Round 1:-DUO-RACE\n" +
+                "THERE WILL BE DUO RACE IN WHICH EACH ONE\n" +
+                "LEG OF PARTICIPANTS WILL BE TIE UP.TOP 10 TEAM\n" +
+                "WILL BE SELECTED.\n" +
+                "\nRound 2:-DUMB SHARADS\n" +
+                "PARTICIPANT HAVE TO EXPLAIN CLUE GIVEN BY\n" +
+                "CO-ORDINATORS.TOP 4 TEAM WILL BE SELECTED.\n" +
+                "\nRound 3:-SURPRISE ROUND");
+
         expandableListDetail.put("Junkyard (Technical)", junkyard);
         expandableListDetail.put("MechHunt (Technical)", mechHunt);
         expandableListDetail.put("Lathe Master (Technical)", lathe);
-        expandableListDetail.put("Balloon Fight (Non-Technical)", balloon);
+
         expandableListDetail.put("Briztrivia Quiz (Non-Technical)", briztrivia);
-        expandableListDetail.put("Blind Bold (Non-Technical)", blind);
+        expandableListDetail.put("Blind Bond (Non-Technical)", blind);
+        expandableListDetail.put("Sync Buddies (Non-Technical)", sync);
 
         return expandableListDetail;
     }
