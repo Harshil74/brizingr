@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Brizingr2k19</string>
+    <string name="contact_us">Contact us</string>
+    <string name="event">Event</string>
+    <string name="schedule">Schedule</string>
+    <string name="about_nbrizingr">About Brizingr</string>
+    <string name="mechanical">Mechanical</string>
+    <string name="ec">EC</string>
+    <string name="ic">IC</string>
+    <string name="computer">Computer</string>
+    <string name="civil">Civil</string>
+    <string name="auto_nmobile">Auto  Mobile</string>
+    <string name="fun_zone">Fun Zone</string>
+    <string name="electrical">Electrical</string>
+</resources>

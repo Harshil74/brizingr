@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.brizingr2k19">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AboutGEC"></activity>
+        <activity android:name=".events.FunZone" />
+        <activity android:name=".events.Electrical" />
+        <activity android:name=".events.AutoMobile" />
+        <activity android:name=".events.Civil" />
+        <activity android:name=".events.IC" />
+        <activity android:name=".events.EC" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Event" />
+        <activity android:name=".Schedule" />
+        <activity android:name=".About" />
+        <activity android:name=".events.Mech" />
+        <activity android:name=".events.Comp" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
