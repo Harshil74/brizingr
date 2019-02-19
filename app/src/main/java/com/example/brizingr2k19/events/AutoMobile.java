@@ -10,6 +10,7 @@ import android.widget.ExpandableListView;
 import com.example.brizingr2k19.R;
 import com.example.brizingr2k19.expantable.Custom_expantable_adapter;
 import com.example.brizingr2k19.expantable.ExpantableAuto;
+import com.example.brizingr2k19.expantable.ExpantableEC;
 import com.example.brizingr2k19.expantable.ExpantableMech;
 
 import java.util.ArrayList;
@@ -30,9 +31,9 @@ public class AutoMobile extends AppCompatActivity {
 
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
-        getSupportActionBar().setTitle("AutoMobile");
+        getSupportActionBar().setTitle("Auto Mobile");
 
-        expandableListView = findViewById(R.id.expandableListViewAuto);
+        expandableListView = findViewById(R.id.expandableListViewMech);
         expandableListDetail = ExpantableAuto.getData();
         expandableListTitle = new ArrayList<String>(expandableListDetail.keySet());
         expandableListAdapter = new Custom_expantable_adapter(this, expandableListTitle, expandableListDetail);

@@ -10,6 +10,7 @@ import android.widget.ExpandableListView;
 import com.example.brizingr2k19.R;
 import com.example.brizingr2k19.expantable.Custom_expantable_adapter;
 import com.example.brizingr2k19.expantable.ExpantableCivil;
+import com.example.brizingr2k19.expantable.ExpantableEC;
 import com.example.brizingr2k19.expantable.ExpantableMech;
 
 import java.util.ArrayList;
@@ -27,12 +28,11 @@ public class Civil extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mech);
-
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
         getSupportActionBar().setTitle("Civil");
 
-        expandableListView = findViewById(R.id.expandableListViewCivil);
+        expandableListView = findViewById(R.id.expandableListViewMech);
         expandableListDetail = ExpantableCivil.getData();
         expandableListTitle = new ArrayList<String>(expandableListDetail.keySet());
         expandableListAdapter = new Custom_expantable_adapter(this, expandableListTitle, expandableListDetail);

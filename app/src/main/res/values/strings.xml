@@ -12,4 +12,24 @@
     <string name="auto_nmobile">Auto  Mobile</string>
     <string name="fun_zone">Fun Zone</string>
     <string name="electrical">Electrical</string>
+    <string name="brizingr_2k19">BRIZINGR 2k19</string>
+    <string name="raichura_mithilesh">Raichura Mithilesh</string>
+    <string name="ce_dept">Computer Department.</string>
+    <string name="mo_9913291221">Mo. 9913291221</string>
+    <string name="kapadiya_dhaval">Kapadiya Dhaval</string>
+    <string name="mechanical_department">Mechanical Department</string>
+    <string name="mo_9426623326">Mo. 9426623326</string>
+    <string name="dodiya_rishit">Dodiya Rishit</string>
+    <string name="civil_department">Civil Department</string>
+    <string name="mo_9408886651">Mo. 9408886651</string>
+    <string name="sagar_bhargav">Sagar Bhargav</string>
+    <string name="automobile_department">AutoMobile Department</string>
+    <string name="mo_9712224275">Mo. 9712224275</string>
+    <string name="mo_8264697048">Mo. 8264697048</string>
+    <string name="ec_department">EC Department</string>
+    <string name="zinzuvadiya_vivek">Zinzuvadiya Vivek</string>
+    <string name="mo_9687964013">Mo. 9687964013</string>
+    <string name="ic_department">IC Department</string>
+    <string name="sihora_parin">Sihora Parin</string>
+    <string name="organizing_panel">Organizing Panel</string>
 </resources>

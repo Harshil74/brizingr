@@ -27,12 +27,11 @@ public class EC extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mech);
-
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
         getSupportActionBar().setTitle("EC");
 
-        expandableListView = findViewById(R.id.expandableListViewEC);
+        expandableListView = findViewById(R.id.expandableListViewMech);
         expandableListDetail = ExpantableEC.getData();
         expandableListTitle = new ArrayList<String>(expandableListDetail.keySet());
         expandableListAdapter = new Custom_expantable_adapter(this, expandableListTitle, expandableListDetail);

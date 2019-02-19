@@ -9,6 +9,7 @@ import android.widget.ExpandableListView;
 
 import com.example.brizingr2k19.R;
 import com.example.brizingr2k19.expantable.Custom_expantable_adapter;
+import com.example.brizingr2k19.expantable.ExpantableEC;
 import com.example.brizingr2k19.expantable.ExpantableIC;
 import com.example.brizingr2k19.expantable.ExpantableMech;
 
@@ -32,7 +33,7 @@ public class IC extends AppCompatActivity {
         setSupportActionBar(mTopToolbar);
         getSupportActionBar().setTitle("IC");
 
-        expandableListView = findViewById(R.id.expandableListViewIC);
+        expandableListView = findViewById(R.id.expandableListViewMech);
         expandableListDetail = ExpantableIC.getData();
         expandableListTitle = new ArrayList<String>(expandableListDetail.keySet());
         expandableListAdapter = new Custom_expantable_adapter(this, expandableListTitle, expandableListDetail);

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,4 +12,42 @@
         android:id="@+id/toolbar"
         android:layout_height="wrap_content"/>
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_margin="8dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/icon"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/bz_logo" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bz_text"
+                android:text="@string/brizingr_2k19"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/icon"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_below="@id/bz_text"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:text="Government Engineering College has been conducting Brizingr, an annual state level techfest for aspirants from various engineering colleges with a very high competitive spirit since 2012. This year with the same determination and enthusiasm, GEC - Rajkot is ready to host BRIZINGR 19 to set up new milestones. It is a complete package of technical knowledge and entertainment with euphoria  which would provide lifetime memories and new ideas not only to participants but also to viewers..!! "
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

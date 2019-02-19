@@ -26,7 +26,7 @@ public class ExpantableFunZone {
 
 
 
-        expandableListDetail.put("C Quizzards (Technical)", quizzards);
+        expandableListDetail.put("ROBO Race (Technical)", quizzards);
         expandableListDetail.put("Clude R Quest (Technical)", cluder);
         expandableListDetail.put("Creative Zinger (Technical)", zinger);
         expandableListDetail.put("Front Fest (Technical)", frontfest);

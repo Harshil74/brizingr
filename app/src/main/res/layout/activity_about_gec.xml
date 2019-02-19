@@ -41,7 +41,7 @@
                     android:layout_below="@id/icon"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="8dp"
-                    android:text="Government Hostel Info"
+                    android:text="Government Engg. college Rajkot"
                     android:textColor="#000"
                     android:textSize="25sp" />
 
@@ -53,8 +53,9 @@
                     android:layout_marginEnd="16dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginStart="16dp"
+                    android:gravity="center"
                     android:layout_marginTop="8dp"
-                    android:text="This is application shows the master details of students who live in Government hostel. "
+                    android:text="Since 2004"
                     android:textColor="#9E9E9E" />
 
                 <View
@@ -81,20 +82,20 @@
 
 
 
-                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/i1"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_below="@id/developed_by"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="16dp"
-                    android:src="@drawable/harshil" />
+                <!--<de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"-->
+                    <!--android:id="@+id/i1"-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:layout_below="@id/developed_by"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:layout_marginTop="16dp"-->
+                    <!--android:src="@drawable/harshil" />-->
 
                 <TextView
                     android:id="@+id/harshil"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/i1"
+                    android:layout_below="@id/developed_by"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="8dp"
                     android:text="Harshil Gohel"

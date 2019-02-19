@@ -23,7 +23,7 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
 
-        mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
+        mTopToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
         getSupportActionBar().setTitle("Home");
 
