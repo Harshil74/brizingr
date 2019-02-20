@@ -42,6 +42,8 @@
                 android:layout_height="1dp"
                 android:layout_below="@id/schedule1"
                 android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
                 android:background="@android:color/darker_gray" />
 
             <TextView
@@ -58,7 +60,7 @@
                 android:layout_below="@id/day2"
                 android:padding="8dp"
                 android:textSize="20sp"
-                android:text="09:00AM\t Tech and Non Tech events\n01:30PM\t   Price Distribution \n02:00PM\t   Euphoria"/>
+                android:text="09:00AM\t Tech and Non Tech events\n01:30PM\t Price Distribution \n02:00PM\t Euphoria"/>
         </RelativeLayout>
     </android.support.design.card.MaterialCardView>
 
