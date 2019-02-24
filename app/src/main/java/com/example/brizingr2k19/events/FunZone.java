@@ -26,7 +26,7 @@ public class FunZone extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mech);
+        setContentView(R.layout.activity_fun_zone);
 
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
@@ -34,7 +34,7 @@ public class FunZone extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        expandableListView = findViewById(R.id.expandableListViewMech);
+        expandableListView = findViewById(R.id.expandableListViewFunZone);
         expandableListDetail = ExpantableFunZone.getData();
         expandableListTitle = new ArrayList<String>(expandableListDetail.keySet());
         expandableListAdapter = new Custom_expantable_adapter(this, expandableListTitle, expandableListDetail);

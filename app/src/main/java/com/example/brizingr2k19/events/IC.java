@@ -27,11 +27,11 @@ public class IC extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mech);
+        setContentView(R.layout.activity_ic);
 
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
-        getSupportActionBar().setTitle("IC");
+        getSupportActionBar().setTitle("IC Techanical");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 

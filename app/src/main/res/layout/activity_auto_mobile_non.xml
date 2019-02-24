@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".events.Comp">
+    tools:context=".events.CompNon">
 
     <include
         layout="@layout/toolbar_main"
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"/>
 
     <ExpandableListView
-        android:id="@+id/expandableListViewComp"
+        android:id="@+id/expandableListViewAutoNon"
         android:layout_height="match_parent"
         android:layout_below="@id/toolbar"
         android:layout_width="match_parent"
@@ -22,5 +22,4 @@
         android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
         android:divider="@android:color/darker_gray"
         android:dividerHeight="0.5dp" />
-
 </RelativeLayout>

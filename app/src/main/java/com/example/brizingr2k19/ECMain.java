@@ -1,42 +1,45 @@
 package com.example.brizingr2k19;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.CalendarView;
-import android.widget.ImageView;
 
-public class AboutGEC extends AppCompatActivity {
+import com.example.brizingr2k19.events.Comp;
+import com.example.brizingr2k19.events.CompNon;
+import com.example.brizingr2k19.events.EC;
+import com.example.brizingr2k19.events.ECNon;
 
+public class ECMain extends AppCompatActivity {
+
+    CardView card1,card2;
     private Toolbar mTopToolbar;
-    ImageView hGLink;
-    CardView cardHarshil;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about_gec);
-
+        setContentView(R.layout.activity_ecmain);
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
-        cardHarshil = findViewById(R.id.card_harshil);
         setSupportActionBar(mTopToolbar);
-        getSupportActionBar().setTitle("About GEC");
+        getSupportActionBar().setTitle("EC");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        hGLink = findViewById(R.id.harshil_linkedin);
 
-        cardHarshil.setOnClickListener(new View.OnClickListener() {
+        card1 = findViewById(R.id.cardECTech);
+        card2 = findViewById(R.id.cardECNonTech);
+
+        card1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent();
-                intent.setAction(Intent.ACTION_VIEW);
-                intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("https://www.linkedin.com/in/harshil-gohel-592b8712b/"));
-                startActivity(intent);
+                startActivity(new Intent(getApplicationContext(), EC.class));
+            }
+        });
+        card2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), ECNon.class));
             }
         });
     }

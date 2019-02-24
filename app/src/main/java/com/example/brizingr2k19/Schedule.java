@@ -13,7 +13,7 @@ public class Schedule extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule);
 
-        mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
+        mTopToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
         getSupportActionBar().setTitle("Schedule");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

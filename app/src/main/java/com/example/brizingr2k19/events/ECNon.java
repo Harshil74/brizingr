@@ -10,32 +10,34 @@ import android.widget.ExpandableListView;
 import com.example.brizingr2k19.R;
 import com.example.brizingr2k19.expantable.Custom_expantable_adapter;
 import com.example.brizingr2k19.expantable.ExpantableEC;
-import com.example.brizingr2k19.expantable.ExpantableElectrical;
+import com.example.brizingr2k19.expantable.ExpantableECNon;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class Electrical extends AppCompatActivity {
+public class ECNon extends AppCompatActivity {
 
     private Toolbar mTopToolbar;
     ExpandableListView expandableListView;
     ExpandableListAdapter expandableListAdapter;
     List<String> expandableListTitle;
     HashMap<String, List<String>> expandableListDetail;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_electrical);
+        setContentView(R.layout.activity_ecnon);
+
 
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
-        getSupportActionBar().setTitle("Electrical");
+        getSupportActionBar().setTitle("EC Non-Techanical");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        expandableListView = findViewById(R.id.expandableListViewElectrical);
-        expandableListDetail = ExpantableElectrical.getData();
+        expandableListView = findViewById(R.id.expandableListViewECNon);
+        expandableListDetail = ExpantableECNon.getData();
         expandableListTitle = new ArrayList<String>(expandableListDetail.keySet());
         expandableListAdapter = new Custom_expantable_adapter(this, expandableListTitle, expandableListDetail);
         expandableListView.setAdapter(expandableListAdapter);
@@ -62,7 +64,6 @@ public class Electrical extends AppCompatActivity {
                 return false;
             }
         });
-
 
     }
     @Override

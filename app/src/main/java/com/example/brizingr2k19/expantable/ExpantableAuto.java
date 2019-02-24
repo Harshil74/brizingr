@@ -26,28 +26,11 @@ public class ExpantableAuto {
                 "In next round, each team would be given a set of question paper containing 20 mcqs. Time limit - 10 minutes.\n" +
                 "For the final buzzer round, 5 teams would be selected. 10 marks for correct answer and -5 for wrong. Time limit - 30 seconds.\n");
 
-        List<String> t3s = new ArrayList<String>();
-        t3s.add("In this, your trio will perform different tasks as per our theme. Each task consists different themes. There are 3 tasks a day and if you’ll perform other final 2 tasks, each participant will be given certificate consisting of 9 non-technical points. Winning team will be awarded with exclusive prize.");
 
-        List<String> balloon = new ArrayList<String>();
-        balloon.add("Round 1:\n" +
-                "In this event, participated teams have to create a structure of car. Then race will be carried out. THe least time and max distance coverer will be declared winner.\n" +
-                "\nRound 2:\n" +
-                "The top 10 participated teams of round 1 will qualify for this round. The winner from this will be declared 1st and so on.\n");
-
-        List<String> gully = new ArrayList<String>();
-        gully.add("In this a team of 6 players will play cricket according to street cricket rules. The game will be of 6 overs. 2 teams will play against each other. Winning team will be promoted further.");
-
-
-
-
-        expandableListDetail.put("Robo Race (Technical)", robo);
-        expandableListDetail.put("Reverse Engineering (Technical)", reverse);
-        expandableListDetail.put("Life With Hydra (Technical)", life);
-        expandableListDetail.put("Auto Quiz (Technical)", autoQuiz);
-        expandableListDetail.put("T3S(The 3 Squad) (Non-Technical)", t3s);
-        expandableListDetail.put("Balloon Car Racing(WATER/AIR) (Non-Technical)", balloon);
-        expandableListDetail.put("Gully Cricket (Non-Technical)", gully);
+        expandableListDetail.put("Robo Race", robo);
+        expandableListDetail.put("Reverse Engineering", reverse);
+        expandableListDetail.put("Life With Hydra", life);
+        expandableListDetail.put("Auto Quiz", autoQuiz);
 
         return expandableListDetail;
     }

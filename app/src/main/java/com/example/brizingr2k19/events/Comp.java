@@ -32,7 +32,7 @@ public class Comp extends AppCompatActivity {
 
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
-        getSupportActionBar().setTitle("Computer");
+        getSupportActionBar().setTitle("Computer Technical");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 

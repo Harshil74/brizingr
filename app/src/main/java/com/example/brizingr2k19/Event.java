@@ -45,42 +45,42 @@ public class Event extends AppCompatActivity {
         c1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Event.this, Comp.class));
+                startActivity(new Intent(Event.this, CompMain.class));
             }
         });
 
         c2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Event.this, Mech.class));
+                startActivity(new Intent(Event.this, MechMain.class));
             }
         });
 
         c3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Event.this, EC.class));
+                startActivity(new Intent(Event.this, ECMain.class));
             }
         });
 
         c4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Event.this, IC.class));
+                startActivity(new Intent(Event.this, ICMain.class));
             }
         });
 
         c5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Event.this, Civil.class));
+                startActivity(new Intent(Event.this, CivilMain.class));
             }
         });
 
         c6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Event.this, AutoMobile.class));
+                startActivity(new Intent(Event.this, AutoMobileMain.class));
             }
         });
 

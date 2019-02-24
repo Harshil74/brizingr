@@ -34,7 +34,7 @@
                 android:padding="8dp"
                 android:id="@+id/schedule1"
                 android:textSize="20sp"
-                android:text="09:00AM\t Inauguration\n09:30AM\t Registration\n10:00AM\t Tech and Non Tech events"/>
+                android:text="09:30AM\t Inauguration\n10:00AM\t Registration\n10:30AM\t Tech and Non Tech events"/>
 
             <View
                 android:id="@+id/view1"
@@ -60,7 +60,7 @@
                 android:layout_below="@id/day2"
                 android:padding="8dp"
                 android:textSize="20sp"
-                android:text="09:00AM\t Tech and Non Tech events\n01:30PM\t Price Distribution \n02:00PM\t Euphoria"/>
+                android:text="09:30AM\t Tech and Non Tech events\n12:30PM\t Price Distribution \n01:00PM\t Euphoria"/>
         </RelativeLayout>
     </android.support.design.card.MaterialCardView>
 

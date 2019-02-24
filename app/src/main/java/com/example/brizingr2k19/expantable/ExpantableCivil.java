@@ -24,24 +24,10 @@ public class ExpantableCivil {
         List<String> aqua = new ArrayList<String>();
         aqua.add("The tech event is divided in two rounds 1.) Water bottle Rockets, 2.) Earthquake load bearing structure. First round is Related to fluid mechanics and projectile motion. Second Round is related to knowledge of structure and earthquake Effect on structure. Round-1: Water bottle rocket. Participant will be provided a plastic bottle, cutter and a nozzle, sealant, pump and water. They will have to fit nozzle in cap of bottle and seal it with sealant. Then they will water in the bottle, then close the bottle and fill air in it with pump, your water rocket is ready to launch. Round-2: Earthquake load bearing structure. Participants will be provided a bunch of bamboo stick, thread and cutter using which they have to make a structure of three floor. After the making of structure is complete then it will be tested by applying earthquake kind of loading system at different amount of magnitude. The participant whose structure bears the highest amount of loading will be the winner of the event.");
 
-        List<String> rodies = new ArrayList<String>();
-        rodies.add("In this event participant will performed different task physical and mentally. ");
-
-        List<String> andhadundh = new ArrayList<String>();
-        andhadundh.add("In this game total 2 people participants. 1 participate blind with black patti and other one guide to first one to reach target and path. In this path six or seven obstacles i.e(benches , tires, etc) . First one participant Clear all this object with using their other partners information. Their second partner not give directly clue.He/she give information in funny style. Blindfold people using this information and clear the path and reach the finish line. ");
-
-        List<String> dude = new ArrayList<String>();
-        dude.add("Round 1: \nIn this round there will be starting and ending point participant have 2 balls. They will place the ball from starting to ending at the ending point he will throw 2 balls in the basket. After that he will give the balls to his partner at starting point and his partner will repeat the task.");
-
-
-
-        expandableListDetail.put("Creaton By Straw(Technical)", straw);
-        expandableListDetail.put("Quizomania (Technical)", quizo);
-        expandableListDetail.put("Civil Hunt (Technical)", civilHunt);
-        expandableListDetail.put("Aqua-seismic (Technical)", aqua);
-        expandableListDetail.put("Rodies (Non-Technical)", rodies);
-        expandableListDetail.put("Dude Perfect (Non-Technical)", dude);
-        expandableListDetail.put("Andhadundh (Non-Technical)", andhadundh);
+        expandableListDetail.put("Creaton By Straw", straw);
+        expandableListDetail.put("Quizomania", quizo);
+        expandableListDetail.put("Civil Hunt", civilHunt);
+        expandableListDetail.put("Aqua-seismic", aqua);
 
         return expandableListDetail;
     }

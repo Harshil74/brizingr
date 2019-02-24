@@ -8,9 +8,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        >
-        <activity android:name=".AboutGEC"></activity>
+        android:theme="@style/AppTheme">
+        <activity android:name=".events.AutoMobileNon"></activity>
+        <activity android:name=".AutoMobileMain" />
+        <activity android:name=".events.CivilNon" />
+        <activity android:name=".CivilMain" />
+        <activity android:name=".events.ICNon" />
+        <activity android:name=".ICMain" />
+        <activity android:name=".events.ECNon" />
+        <activity android:name=".ECMain" />
+        <activity android:name=".MechMain" />
+        <activity android:name=".events.MechNon" />
+        <activity android:name=".CompMain" />
+        <activity android:name=".events.CompNon" />
+        <activity android:name=".AboutGEC" />
         <activity android:name=".events.FunZone" />
         <activity android:name=".events.Electrical" />
         <activity android:name=".events.AutoMobile" />

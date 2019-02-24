@@ -26,15 +26,15 @@ public class EC extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mech);
+        setContentView(R.layout.activity_ec);
 
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
-        getSupportActionBar().setTitle("EC");
+        getSupportActionBar().setTitle("EC Techanical");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        expandableListView = findViewById(R.id.expandableListViewMech);
+        expandableListView = findViewById(R.id.expandableListViewEC);
         expandableListDetail = ExpantableEC.getData();
         expandableListTitle = new ArrayList<String>(expandableListDetail.keySet());
         expandableListAdapter = new Custom_expantable_adapter(this, expandableListTitle, expandableListDetail);
@@ -64,6 +64,7 @@ public class EC extends AppCompatActivity {
         });
 
     }
+
     @Override
     public boolean onSupportNavigateUp() {
         onBackPressed();

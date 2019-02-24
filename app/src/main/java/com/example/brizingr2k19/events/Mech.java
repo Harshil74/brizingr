@@ -30,7 +30,7 @@ public class Mech extends AppCompatActivity {
 
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
-        getSupportActionBar().setTitle("Mechanical");
+        getSupportActionBar().setTitle("Mechanical Techanical");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
