@@ -1,6 +1,8 @@
 package com.example.brizingr2k19;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -13,7 +15,7 @@ import android.widget.Toast;
 
 public class Home extends AppCompatActivity {
 
-    CardView card1,card2,card3,card4;
+    CardView card1,card2,card3,card4,card5;
 
     private Toolbar mTopToolbar;
 
@@ -32,6 +34,7 @@ public class Home extends AppCompatActivity {
         card2 = findViewById(R.id.card_schedule);
         card3 = findViewById(R.id.card_event);
         card4 = findViewById(R.id.card_contact);
+        card5 = findViewById(R.id.card_webView);
 
 
         card1.setOnClickListener(new View.OnClickListener() {
@@ -61,6 +64,12 @@ public class Home extends AppCompatActivity {
                 startActivity(new Intent(Home.this,Contact.class));
             }
         });
+        card5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Home.this,WebView.class));
+            }
+        });
 
 
     }
@@ -85,5 +94,26 @@ public class Home extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    public void onBackPressed() {
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(Home.this);
+        builder.setTitle(R.string.app_name);
+        builder.setIcon(R.mipmap.ic_launcher);
+        builder.setMessage("Do you want to exit?")
+                .setCancelable(false)
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        finish();
+                    }
+                })
+                .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        dialog.cancel();
+                    }
+                });
+        AlertDialog alert = builder.create();
+        alert.show();
+
     }
 }

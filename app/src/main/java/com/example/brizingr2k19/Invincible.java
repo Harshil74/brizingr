@@ -28,7 +28,7 @@ public class Invincible extends AppCompatActivity {
         setContentView(R.layout.activity_invincible);
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mTopToolbar);
-        getSupportActionBar().setTitle("Computer Technical");
+        getSupportActionBar().setTitle("Adventure Activities");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 

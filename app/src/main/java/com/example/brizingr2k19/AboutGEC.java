@@ -14,7 +14,7 @@ public class AboutGEC extends AppCompatActivity {
 
     private Toolbar mTopToolbar;
     ImageView hGLink;
-    CardView cardHarshil;
+    CardView cardHarshil,cardGec;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +28,8 @@ public class AboutGEC extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
+        cardGec = findViewById(R.id.card_gec);
+
         hGLink = findViewById(R.id.harshil_linkedin);
 
         cardHarshil.setOnClickListener(new View.OnClickListener() {
@@ -40,6 +42,18 @@ public class AboutGEC extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        cardGec.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse("http://www.gecrj.cteguj.in/"));
+                startActivity(intent);
+            }
+        });
+
         cardNehal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

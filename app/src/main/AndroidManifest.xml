@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.brizingr2k19">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,34 +10,91 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Invincible"></activity>
-        <activity android:name=".events.AutoMobileNon" />
-        <activity android:name=".AutoMobileMain" />
-        <activity android:name=".events.CivilNon" />
-        <activity android:name=".CivilMain" />
-        <activity android:name=".events.ICNon" />
-        <activity android:name=".ICMain" />
-        <activity android:name=".events.ECNon" />
-        <activity android:name=".ECMain" />
-        <activity android:name=".MechMain" />
-        <activity android:name=".events.MechNon" />
-        <activity android:name=".CompMain" />
-        <activity android:name=".events.CompNon" />
-        <activity android:name=".AboutGEC" />
-        <activity android:name=".events.FunZone" />
-        <activity android:name=".events.Electrical" />
-        <activity android:name=".events.AutoMobile" />
-        <activity android:name=".events.Civil" />
-        <activity android:name=".events.IC" />
-        <activity android:name=".events.EC" />
-        <activity android:name=".Contact" />
-        <activity android:name=".Event" />
-        <activity android:name=".Schedule" />
-        <activity android:name=".About" />
-        <activity android:name=".events.Mech" />
-        <activity android:name=".events.Comp" />
-        <activity android:name=".Home" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".WebView"></activity>
+        <activity
+            android:name=".Invincible"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".events.AutoMobileNon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AutoMobileMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".events.CivilNon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CivilMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".events.ICNon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ICMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".events.ECNon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ECMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MechMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".events.MechNon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CompMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".events.CompNon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutGEC"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".events.FunZone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".events.Electrical"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".events.AutoMobile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".events.Civil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".events.IC"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".events.EC"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Contact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Event"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Schedule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".About"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".events.Mech"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".events.Comp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
