@@ -74,7 +74,7 @@ public class Expantable_computer {
 
         List<String> logic = new ArrayList<String>();
         logic.add("Event Description:\n" +
-                "Logic ++ is A Technical Event Based on Basic Knowledge of Microsoft Office Tools and General Applications of Basic Algorithms. Individual participate and Three Different Levels of Difficulties .After Completion of 3 levels, Winner will declare.\n" +
+                "Logic ++ is A Technical Event Based on Basic Knowledge of Computer Tools and General Applications of Basic Algorithms. Individual participate and Three Different Levels of Difficulties .After Completion of 3 levels, Winner will declare.\n" +
                 "\nRules:\n" +
                 "This is an individual participate event.\n" +
                 "The co-ordinators reserve the rights to make any changes to event whenever deemed. \n" +
@@ -84,7 +84,7 @@ public class Expantable_computer {
                 "Any sort of nuisance will not be tolerated and will result into disqualification.\n" +
                 "\nEvent Flow:\n" +
                 "Round 1:\n" +
-                "Is the First Pen Paper Based Test Round .There are 35 MCQ and Time duration of 40 Minutes.Questions are Based on General Knowledge of Microsoft Office Tools and Their Applications . Selection is Based on Scores\n" +
+                "Is the First Pen Paper Based Test Round .There are 35 MCQ and Time duration of 40 Minutes.Questions are Based on General Knowledge of Computer and Their Applications . Selection is Based on Scores\n" +
                 "\nRound 2:\n" +
                 "Second Round is divided in Different Applications of Algorithms.Participants Perform the Application on Live . Participants   will be selected for the Next and Final Round based on Time, Correctness  and Minimum Pass They take to  Complete the task .\n" +
                 "\nRound 3:\n" +

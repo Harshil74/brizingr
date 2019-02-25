@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".events.AutoMobileNon"></activity>
+        <activity android:name=".Invincible"></activity>
+        <activity android:name=".events.AutoMobileNon" />
         <activity android:name=".AutoMobileMain" />
         <activity android:name=".events.CivilNon" />
         <activity android:name=".CivilMain" />

@@ -147,6 +147,85 @@
 
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/card_nehal"
+                android:layout_margin="10dp"
+                android:layout_below="@id/card_harshil">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/developed1_by"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/view1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Developed by"
+                        android:textColor="#9E9E9E" />
+
+
+
+                    <!--<de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"-->
+                    <!--android:id="@+id/i1"-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:layout_below="@id/developed_by"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:layout_marginTop="16dp"-->
+                    <!--android:src="@drawable/harshil" />-->
+
+                    <TextView
+                        android:id="@+id/nehel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/developed1_by"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:text="Nehal Dholakia"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/details_of_nehal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nehel"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Student of Computer Engineering."
+                        android:textColor="#9E9E9E" />
+
+
+                    <ImageView
+                        android:id="@+id/nehal_linkedin"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_below="@id/details_of_nehal"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/linkedin" />
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@id/nehal_linkedin"
+                        android:layout_marginTop="8dp"
+                        android:background="@android:color/darker_gray" />
+
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
         </RelativeLayout>
     </ScrollView>
 

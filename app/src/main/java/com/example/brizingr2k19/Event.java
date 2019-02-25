@@ -18,7 +18,7 @@ import com.example.brizingr2k19.events.Mech;
 
 public class Event extends AppCompatActivity {
 
-    CardView c1,c2,c3,c4,c5,c6,c7,c8;
+    CardView c1,c2,c3,c4,c5,c6,c7,c8,c9;
 
     private Toolbar mTopToolbar;
 
@@ -41,6 +41,7 @@ public class Event extends AppCompatActivity {
         c6 = findViewById(R.id.card_automobile);
         c7 = findViewById(R.id.card_electrical);
         c8 = findViewById(R.id.card_fun);
+        c9 = findViewById(R.id.card_invincible);
 
         c1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -95,6 +96,12 @@ public class Event extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Event.this, FunZone.class));
+            }
+        });
+        c9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Event.this, Invincible.class));
             }
         });
     }

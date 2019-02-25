@@ -22,6 +22,7 @@ public class AboutGEC extends AppCompatActivity {
 
         mTopToolbar = (Toolbar) findViewById(R.id.toolbar);
         cardHarshil = findViewById(R.id.card_harshil);
+        CardView cardNehal = findViewById(R.id.card_nehal);
         setSupportActionBar(mTopToolbar);
         getSupportActionBar().setTitle("About GEC");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -36,6 +37,16 @@ public class AboutGEC extends AppCompatActivity {
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
                 intent.setData(Uri.parse("https://www.linkedin.com/in/harshil-gohel-592b8712b/"));
+                startActivity(intent);
+            }
+        });
+        cardNehal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse("https://www.linkedin.com/in/nehal-dholakia-970a7914b/"));
                 startActivity(intent);
             }
         });
