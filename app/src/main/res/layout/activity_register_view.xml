@@ -4,18 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WebView">
+    tools:context=".RegisterView">
     <include
         layout="@layout/toolbar_main"
         android:layout_width="match_parent"
         android:id="@+id/toolbar"
         android:layout_height="wrap_content"/>
-
-    <WebView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
         android:layout_below="@id/toolbar"
-        android:id="@+id/webView" />
-
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
 
 </RelativeLayout>

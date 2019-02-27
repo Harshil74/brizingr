@@ -31,4 +31,5 @@ dependencies {
     implementation 'com.android.support:design:28.0.0'
     implementation 'de.hdodenhof:circleimageview:1.2.1'
     implementation 'com.github.aakira:expandable-layout:1.6.0@aar'
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
 }
