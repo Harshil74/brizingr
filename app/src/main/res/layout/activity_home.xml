@@ -168,12 +168,12 @@
                            android:layout_height="100dp"
                            android:layout_centerHorizontal="true"
                            android:id="@+id/webView_img"
-                           android:src="@drawable/ic_phone_android_black_24dp"/>
+                           android:src="@drawable/ic_web_black_24dp"/>
                        <TextView
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
                            android:id="@+id/webView_text"
-                           android:text="Visit our Website"
+                           android:text="@string/visit_our_website"
                            android:layout_below="@id/webView_img"
                            android:textSize="20sp"
                            android:gravity="center"

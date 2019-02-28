@@ -51,7 +51,7 @@
                    android:padding="8dp"
                    android:layout_marginTop="16dp"
                    android:textSize="20sp"
-                   android:text="Government Engineering College has been conducting Brizingr, an annual state level techfest for aspirants from various engineering colleges with a very high competitive spirit since 2012. This year with the same determination and enthusiasm, GEC - Rajkot is ready to host BRIZINGR 19 to set up new milestones. It is a complete package of technical knowledge and entertainment with euphoria  which would provide lifetime memories and new ideas not only to participants but also to viewers..!! "
+                   android:text="@string/description_brizingr"
                    />
            </RelativeLayout>
            <ImageView
